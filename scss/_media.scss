@@ -1,0 +1,73 @@
+@media only screen and (max-width:600px){
+    header{
+        h1{
+            font-size: 15px;
+        }
+    }
+
+    nav{
+        ul{
+            flex-direction: column;
+            height: 100px;
+        }
+    }
+
+
+    footer{
+        font-size: 10px;
+        height: 140px;
+        justify-content: space-evenly;
+        align-items: center;
+        .bi{
+            font-size: 10px;
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+
+    }
+}
+
+
+
+
+
+@media only screen and (min-width:600px){
+
+    header{
+        h1{
+            font-size: 30px;
+        }
+    }
+    ul{
+        height: 100px;
+
+    }
+
+    .card{
+        border-radius: 30px;
+        box-shadow: 7px 13px 37px #000;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .img{
+        object-fit: cover;
+    }
+
+    footer{
+        display: flex;
+        font-size: 25px;
+        background-color: black;
+        height: 200px;
+        color: antiquewhite;
+        font-family: 'Courier New', Courier, monospace;
+        .bi{
+            font-size: 30px;
+            margin-top: 1rem;
+            margin-left: 7rem;
+        }
+    }
+
+
+
+}

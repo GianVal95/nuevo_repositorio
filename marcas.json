@@ -1,0 +1,21 @@
+{
+    "videojuegos": [{
+
+            "titulo": "XBOX",
+            "imagen": "https://gamedustria.com/wp-content/uploads/2017/06/xbox.jpg"
+        },
+        {
+            "titulo": "Nintendo",
+            "imagen": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2016/09/Ninty_Mario.jpg?fit=980%2C551&quality=80&ssl=1"
+            
+            
+            
+        },
+        {
+            "titulo": "PlayStation",
+            "imagen": "https://assets.turbologo.com/blog/es/2021/07/15081100/35cd555af4ebd39da4fb51db778b3a30-958x575-1.jpg"
+             
+        }
+        
+    ]
+}

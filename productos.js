@@ -1,4 +1,4 @@
-const productos = [{
+let productos = [{
     id: 1,
     foto: "https://m.media-amazon.com/images/I/61ghCI4Kc4L._AC_SX569_.jpg",
     nombre: "FIFA 23 ",
@@ -71,3 +71,9 @@ const productos = [{
     precio: 15999
 },
 ];
+
+let objetoAjson = JSON.stringify (productos);
+console.log(objetoAjson);
+localStorage.setItem("misproductos", objetoAjson);
+
+guardarLocal("listaproductos"), JSON.stringify(productos);
